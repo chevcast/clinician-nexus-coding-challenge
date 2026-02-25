@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "age": 28,
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "age": 34,
+      "isActive": false
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "email": "charlie.brown@example.com",
+      "age": 22,
+      "isActive": true
+    },
+    {
+      "id": 4,
+      "name": "Diana Prince",
+      "email": "diana.prince@example.com",
+      "age": 30,
+      "isActive": true
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Understanding Svelte",
+      "content": "Svelte is a modern JavaScript framework that compiles components into highly efficient vanilla JavaScript.",
+      "authorId": 1
+    },
+    {
+      "id": 2,
+      "title": "Getting Started with TypeScript",
+      "content": "TypeScript is a superset of JavaScript that adds static types, making it easier to catch errors early.",
+      "authorId": 2
+    },
+    {
+      "id": 3,
+      "title": "Building Reusable Components",
+      "content": "Creating reusable components in Svelte can greatly enhance your application's maintainability.",
+      "authorId": 3
+    },
+    {
+      "id": 4,
+      "title": "State Management in Svelte",
+      "content": "Svelte provides a simple and effective way to manage state using stores.",
+      "authorId": 4
+    }
+  ]
+}
